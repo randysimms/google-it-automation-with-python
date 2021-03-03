@@ -2,7 +2,7 @@
 
 What you'll do:
   Replacing the old domain name (abc.edu) with a new domain name (xyz.edu).
-  Storing all domain names, including the updated ones, in a new file user_emails.csv
+  Storing all domain names, including the updated ones, in a new file user_emails2.csv
 
 '''
 
@@ -25,7 +25,7 @@ def main():
     old_domain, new_domain = 'abc.edu', 'xyz.edu'
     #data_dir = '/home/<username>/data/'
     data_dir = ''
-    csv_file_location = data_dir + 'user_emails.csv'
+    csv_file_location = data_dir + 'user_emails2.csv'
     report_file =  data_dir + 'updated_user_emails.csv'
 
     user_email_list = []

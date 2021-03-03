@@ -93,8 +93,8 @@ if __name__ == "__main__":
 
 
  # Process the data and turn it into an HTML
-    csv_to_html.convert(userstats_csv,userstats_html)
-    csv_to_html.convert(errmsg_csv,errmsg_html)
+    csv_to_html.convert(userstats_csv, userstats_html)
+    csv_to_html.convert(errmsg_csv, errmsg_html)
 
 
 

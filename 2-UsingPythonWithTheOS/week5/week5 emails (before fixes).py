@@ -21,7 +21,7 @@ def find_email(argv):
     # Preprocess the data
     datadir = ""
     #datadir = "/home/{{ username }}/data/"
-    email_dict = populate_dictionary(datadir + 'user_emails.csv')
+    email_dict = populate_dictionary(datadir + 'user_emails2.csv')
     # Find and print the email
     return email_dict.get(fullname.lower())
 
