@@ -1,5 +1,4 @@
-# Google IT Automation With Python 
-# (Professional Certificate)
+# Google IT Automation With Python (Professional Certificate)
 
 Author: Randy Simms
 
