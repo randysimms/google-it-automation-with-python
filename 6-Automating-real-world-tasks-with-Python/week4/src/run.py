@@ -25,7 +25,7 @@ def uploadTexts(paths, endpoint):
             fruit["name"] = contents_split[0]
             fruit["weight"] = contents_split[1].split(" ")[0]  #only return the integer portion
             fruit["description"] = contents_split[2]
-            fruit["image_name"] = os.path.splitext(norm_fn)[0] + ".jpg"
+            fruit["image_name"] = os.path.splitext(os.path.basename(norm_fn))[0] + ".jpeg"
             response = requests.post(endpoint, json=fruit)
         else:
             print("ERROR: not enough data in description for {}".format(norm_fn))
@@ -38,8 +38,8 @@ def uploadTexts(paths, endpoint):
     return noerrors
 
 def main():
-    response = uploadTexts("../supplier-data/descriptions", "http://" + socket.gethostname() + "/fruits/")
+    response = uploadTexts("../supplier-data/descriptions/*.txt", "http://" + socket.gethostname() + "/fruits/")
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

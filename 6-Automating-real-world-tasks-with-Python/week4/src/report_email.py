@@ -24,13 +24,13 @@ def process_descriptions(path):
         name = contents_split[0]
         weight = contents_split[1]
         body += "<br />" + "name: " + name + "<br />" + "weight: " + weight +  "<br />"
-
-    print("Processed {}...".format(norm_fn))
+        print("Processed {}...".format(norm_fn))
 
     return body
 
 
-def main(fn_report):
+def main():
+    fn_report = "processed.pdf"
     pathtotxt = "../supplier-data/descriptions/*.txt"
     body = process_descriptions(pathtotxt)
     generate_report(attachment=fn_report,

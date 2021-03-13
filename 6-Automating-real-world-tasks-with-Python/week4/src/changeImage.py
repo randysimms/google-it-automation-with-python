@@ -42,9 +42,10 @@ def convert_image(fn_pattern,dest_format,sizes):
     return True
 
 
-def main(argv):
+def main():
     fn = "../supplier-data/images/*.tiff"
+    convert_image(fn, "jpeg", (600, 400))
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()
