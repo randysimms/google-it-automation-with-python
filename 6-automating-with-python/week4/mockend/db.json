@@ -1,0 +1,21 @@
+{
+  "fruit": [
+    {
+      "name": "Apple", 
+      "weight": 500, 
+      "description": "Apple is one of the most nutritious and healthiest fruits. It is very rich in antioxidants and dietary fiber. Moderate consumption can not only increase satiety, but also help promote bowel movements. Apple also contains minerals such as calcium and magnesium, which can help prevent and delay bone loss and maintain bone health. It is good for young and old. ", 
+      "image_name": "001.jpg"
+    },
+    {
+      "name": "Blackberry", 
+      "weight": 150, 
+      "description": "Blackberries have high nutritional value and are excellent fruit for health. It’s rich in nutrients, various amino acids and trace elements necessary for the human body. They are good at promoting blood coagulation, delaying aging, improving immunity and reducing blood pressure and blood lipids. Blackberries can be consumed directly as fruit or made into jam and fruit wine.", 
+      "image_name": "003.jpg"
+    }
+  ],
+  "upload":
+  {
+
+  }
+
+}
